@@ -10,6 +10,6 @@ If the `index.js` file does not exist, it creates one. This allows for easier im
 
 Install globally ``npm install @zewebdev/svelte-index-updater --global``
 
-Run from the root of your react project: ``svelte-index-updater``
+Run from the root of your project: ``svelte-index-updater``
 
 Please note that this script script does not handle the removal of non-existent components from the index file. This is a vestigial limitation from the original React version, I might implement this functionality but I can't make promises.
