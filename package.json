@@ -1,10 +1,10 @@
 {
   "name": "@zewebdev/svelte-index-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Utility script for Svelte projects that automatically updates `index.js` files in each subdirectory of the `./src` directory. It scans through the `./src` directory recursively and for each subdirectory, it checks for React Svelte files (`.svelte`).\nFor each Svelte file, it updates the corresponding `index.js` file in the same directory to include an export statement for each file.\nIf the `index.js` file does not exist, it creates one. This allows for easier importing of components from a directory, enabling syntax like `import { Component1, Component2 } from './directory'` instead of having to write an import statement for each Svelte file.\nHow to use:\nInstall globally 'npm install @zewebdev/svelte-index-updater --global'\nRun from the root of your react project: 'svelte-index-updater'\nPlease note that this script does not handle the removal of non-existent components from the index file. This is a vestigial limitation from the original React version, I might implement this functionality but I can't make promises.",
   "bin": {
-    "react-index-updater": "./index.js"
+    "svelte-index-updater": "./index.js"
   },
   "keywords": [
     "svelte",
